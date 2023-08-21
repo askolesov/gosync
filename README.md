@@ -1,6 +1,8 @@
 GoSync: Concurrent Synchronization Library for Go
 =================================================
 
+![Gopher](gopher.png)
+
 GoSync is a lightweight and user-friendly library designed to manage concurrent synchronization in Go applications. It simplifies the experience for users familiar with async-await constructs.
 
 Installation
