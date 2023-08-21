@@ -153,4 +153,4 @@ If you find any issues or have suggestions for improvements, feel free to contri
 License
 -------
 
-GoSync is released under the [MIT License](https://opensource.org/licenses/MIT).
+Cobra is released under the Apache 2.0 license. See [LICENSE.txt](LICENSE.txt)
