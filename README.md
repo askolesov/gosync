@@ -8,6 +8,7 @@ GoSync is a lightweight and user-friendly library designed to manage concurrent 
 [![test](https://github.com/askolesov/gosync/actions/workflows/test.yaml/badge.svg)](https://github.com/askolesov/gosync/actions/workflows/test.yaml)
 [![codecov](https://codecov.io/gh/askolesov/gosync/graph/badge.svg?token=TLMHQW5TF5)](https://codecov.io/gh/askolesov/gosync)
 [![Go Reference](https://pkg.go.dev/badge/github.com/askolesov/gosync.svg)](https://pkg.go.dev/github.com/askolesov/gosync)
+[![Go Report Card](https://goreportcard.com/badge/github.com/askolesov/gosync)](https://goreportcard.com/report/github.com/askolesov/gosync)
 
 Installation
 ------------
