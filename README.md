@@ -1,4 +1,4 @@
-GoSync: Concurrent Synchronization Library for Go
+GoSync: Async / Await for Go
 =================================================
 
 ![Gopher](gopher.png)
