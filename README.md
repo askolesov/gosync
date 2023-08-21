@@ -146,6 +146,15 @@ tr3 := gosync.GoRes(func() int {
 gosync.WaitAny(ts1, ts2, ts3)
 ```
 
+Limitations
+-----------
+
+In Go, there is no direct way to terminate a running goroutine from outside of it. Goroutines can only be terminated from within by returning from the function or using channels to signal termination. As a result:
+
+- Calling `Wait()` on an infinitely running task will block the calling routine indefinitely.
+- Calling `WaitTimeout()` or `WaitCtx()` on an infinitely running goroutine will result in a new locked routine being spawned.
+- If `WaitTimeout()` or `WaitCtx()` is called and then exited due to timeout or cancellation, the internally spawned routine will continue to stay alive until the task itself is finished.
+
 FAQ (Frequently Asked Questions)
 --------------------------------
 
