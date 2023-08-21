@@ -146,6 +146,17 @@ tr3 := gosync.GoRes(func() int {
 gosync.WaitAny(ts1, ts2, ts3)
 ```
 
+FAQ (Frequently Asked Questions)
+--------------------------------
+
+**Q: Is GoSync a replacement for goroutines?**
+
+**A:** No, GoSync provides shortcuts and helpers to maintain cleaner and simpler code. However, it's important to have a foundational understanding of goroutines at a lower level and their limitations to avoid misusing the library.
+
+**Q: Why did you create another library?**
+
+**A:** While there are numerous tutorials on implementing similar functionality, I often found myself duplicating code across different projects. Although there is an existing implementation like [go-asynctask](https://github.com/Azure/go-asynctask), GoSync is designed to be cleaner and simpler, following idiomatic Go practices.
+
 Contributing
 ------------
 
