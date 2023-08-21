@@ -1,4 +1,4 @@
-GoSync: Async / Await for Go
+GoSync: Bringing Async/Await to Go
 =================================================
 
 ![Gopher](gopher.png)
